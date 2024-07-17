@@ -1,0 +1,23 @@
+<!--pages/zuji/zuji.wxml-->
+<view class="container">
+  <view class="page-body">
+    <view class="page-section page-section-gap">
+      <map
+        style="width: 300px; height: 300px;"
+        latitude="{{latitude}}"
+        longitude="{{longitude}}"
+        id="zuji-map"
+      >
+      </map>
+       <view class="location-info">
+    <view>选择的位置信息：</view>
+    <view id = "choosename">名称：{{location.name}}</view>
+    <view id="chooselocation">地址：{{location.address}}</view>
+    <view id="chooselongitude">经度：{{location.longitude}}</view>
+    <view id="chooselatitude">纬度：{{location.latitude}}</view>
+  </view>
+  <button bindtap="chooseLocation">选择位置</button>
+  <button bindtap="test_function">测试功能</button>
+    </view>
+  </view>
+</view>
