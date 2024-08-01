@@ -1,0 +1,6 @@
+<!--pages/Plan/Plan.wxml-->
+<text>未来的规划</text>
+<input type="text" placeholder="例如：我要考上电子科大！"/>
+<text>计划完成的时间</text>
+<input type="text" placeholder="细节功能待开发，只用作演示"/>
+<text>距离目标还有_____天</text>

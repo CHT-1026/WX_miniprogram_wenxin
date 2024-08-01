@@ -1,0 +1,9 @@
+/*pages/zuji/zuji.wxss */
+
+
+
+.map {
+  width: 100%;
+  height: 300rpx; /* 使用rpx单位 */
+}
+

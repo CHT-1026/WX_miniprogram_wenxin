@@ -1,0 +1,23 @@
+<!--pages/zuji/zuji.wxml-->
+<view class="container">
+  <view class="page-body">
+    <view class="page-section page-section-gap">
+      <map
+        style="width: 300px; height: 300px;"
+        latitude="{{latitude}}"
+        longitude="{{longitude}}"
+        id="zuji-map"
+        bindmarkertap="onMarkerTap"
+        show-location="true"
+      >
+      </map>
+       <view class="location-info">
+   
+  </view>
+  <button bindtap="chooseLocation">选择位置</button>
+  <button bindtap="addmarkers">添加标记点</button>
+  <button bindtap="clear_markers">清除所有标点</button>
+    </view>
+  </view>
+</view>
+
