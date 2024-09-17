@@ -1,8 +1,0 @@
-<!--index.wxml-->
-
-<view class="index_button">
-    <button bind:tap="zuji_Click"  type="default" plain="True" hover-class="button-hover" id="zuji" >我的足迹</button>
-    <button bind:tap="table_Click" type="default" plain="True" hover-class="button-hover" id="time-table">时间表</button>
-    <button bind:tap="Plan_Click" type="default" plain="True" hover-class="button-hover" id="plan" >我的规划</button>
-</view>
-

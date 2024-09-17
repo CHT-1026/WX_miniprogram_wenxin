@@ -1,9 +1,0 @@
-<!--logs.wxml-->
-<view class="fr">
-  <text class="fr_item">特别关心</text>
-  <text class="fr_item">我的好友</text>
-  <text class="fr_item">好友申请</text>
-  <text class="fr_item">社区</text>
-
-</view>
-<text class = "test">当前界面仅作展示，功能仍在开发中。。。</text>
