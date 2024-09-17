@@ -1,0 +1,51 @@
+/* pages/privacy/about/about.wxss */
+/* 基本样式设置 */
+.container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+.header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #000;
+}
+
+.intro, .support, .info, .contact, .thanks {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.info {
+  color: #007aff;
+}
+
+.link {
+  color: #007aff;
+  text-decoration: underline;
+}
+
+.link:active {
+  color: #0056b3;
+}
+
+.contact-info {
+  margin-top: 10px;
+}
+
+.email, .phone {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.thanks {
+  font-style: italic;
+  margin-top: 20px;
+  text-align: center;
+  color: #666;
+}

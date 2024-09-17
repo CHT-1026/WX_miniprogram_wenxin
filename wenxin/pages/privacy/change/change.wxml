@@ -1,0 +1,10 @@
+<!--pages/privacy/change/change.wxml-->
+
+
+
+<button class="avatar-wrapper" open-type="chooseAvatar" bind:chooseavatar="onChooseAvatar">
+  <image class="avatar" src="{{avatarUrl}}"></image>
+</button>
+<input type="text" class="weui-input" placeholder="请输入昵称"  bindinput="nickname" 
+    value="{{Nick_name}}"/>
+<button class="update" bind:tap="update_data">提交</button>

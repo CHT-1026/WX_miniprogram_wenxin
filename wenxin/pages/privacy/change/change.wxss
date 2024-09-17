@@ -1,0 +1,19 @@
+/* pages/privacy/change/change.wxss */
+.avatar-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;      /* 设置按钮的宽度 */
+  height: 80px;     /* 设置按钮的高度 */
+  border-radius: 50%; /* 将按钮设置为圆形 */
+  padding: 0;       /* 去除按钮内边距 */
+  border: none;     /* 去除按钮边框 */
+  background-color: transparent; /* 背景颜色透明，避免干扰头像显示 */
+}
+
+.avatar {
+  width: 70px;      /* 设置头像的宽度 */
+  height: 70px;     /* 设置头像的高度 */
+  border-radius: 50%; /* 将头像设置为圆形 */
+  object-fit: cover; /* 确保头像保持比例且不会变形 */
+}

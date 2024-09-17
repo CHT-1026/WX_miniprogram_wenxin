@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<!--pages/privacy.wxml-->
+<view class="container" style="width: 206rpx; display: flex; box-sizing: border-box; left: 525rpx; top: -20rpx; height: 252rpx; position: fixed">
+  <button class="avatar-wrapper" bind:tap="register_page">
+    <image class="avatar" src="{{avatarUrl}}"></image>
+  </button>
+  <text class="text" style="position: relative; left: 1rpx; top: -20rpx">{{nickname}}</text>
+</view>
+
+<view class="index_button">
+    <button bind:tap="zuji_Click"  type="default" plain="True" hover-class="button-hover" id="zuji" >我的足迹</button>
+    <button bind:tap="table_Click" type="default" plain="True" hover-class="button-hover" id="time-table">时间表</button>
+    <button bind:tap="Plan_Click" type="default" plain="True" hover-class="button-hover" id="plan" >我的规划</button>
+</view>

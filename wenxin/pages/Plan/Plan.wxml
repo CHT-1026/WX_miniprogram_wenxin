@@ -1,0 +1,19 @@
+<!--pages/Plan/Plan.wxml-->
+<text>未来的规划</text>
+
+<input 
+    id="myInput" 
+    type="text" 
+    placeholder="例如：我要考上电子科大！" 
+    bindinput="onInputChange" 
+    value="{{inputValue}}" />
+
+
+<text>计划完成的时间</text>
+<input id="dateinput" 
+    type="text" 
+    placeholder="输入计划完成日期" 
+    bindinput="Dateinput" 
+    value="{{Date_inputValue}}"/>
+<button bind:tap="update_database">保存</button>
+<button bind:tap="stored_plan" id="stored_plan">查看已创建的计划</button>

@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/privacy/privacy",
+    "pages/zuji/zuji",
+    "pages/Time_table/Time_table",
+    "pages/Plan/Plan",
+    "pages/stored_plan/stored_plan",
+    "pages/privacy/register/register",
+    "pages/privacy/change/change",
+    "pages/privacy/register/sign_up/sign_up",
+    "pages/privacy/about/about"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "问心moments",
+    "backgroundColor": "#545454",
+    "backgroundTextStyle": "light",
+    "restartStrategy": "homePage"
+  },
+  "tabBar": {
+    "selectedColor": "#00c700",
+    "list": [
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "朋友"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/privacy/privacy",
+        "text": "个人信息"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,19 @@
+<!--pages/stored_plan/stored_plan.wxml-->
+<view class="container">
+  <view class="table">
+    <view class="table-row header">
+      <view class="table-cell">计划描述</view>
+      <view class="table-cell">计划完成日期</view>
+      <view class="table-cell">是否完成</view>
+      <view class="table-cell">剩余天数</view>
+    </view>
+    <!-- 使用 wx:for 循环渲染表格内容 -->
+    <view wx:for="{{tableData}}" wx:for-item="item" class="table-row">
+      <view class="table-cell">{{item.description}}</view>
+      <view class="table-cell">{{item.due}}</view>
+      <view class="table-cell">{{item.done}}</view>
+      <view class="table-cell">{{item.days_until}}</view>
+    </view>
+  </view>
+</view>
+<text class = "test">本界面需要美化展示形式，争取成为美观的卡片形式</text>

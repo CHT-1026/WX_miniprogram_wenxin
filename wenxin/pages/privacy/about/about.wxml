@@ -1,0 +1,24 @@
+<!--pages/privacy/about/about.wxml-->
+<view class="container">
+  <text class="header">欢迎使用本小程序！</text>
+  <text class="intro">
+    本小程序由作者独立创作，经过测试后发布。由于能力限制，程序可能存在一些瑕疵，敬请大家多多指正。
+  </text>
+  <text class="support">
+    如果您觉得本程序对您有帮助，欢迎通过“支持作者”栏目对我的创作进行支持！
+  </text>
+  <text class="info">
+    有关程序的更多信息，请访问我们的
+    <text class="link" bindtap="openGitHub">GitHub 页面</text>，我们会在此同步更新详细的版本变更和代码信息。
+  </text>
+  <text class="contact">
+    如有任何反馈或建议，您可以通过以下方式与我们联系：
+  </text>
+  <view class="contact-info">
+    <text class="email">QQ 邮箱: 1357291374@qq.com\n</text>
+    <text class="phone">电话: 13171471026</text>
+  </view>
+  <text class="thanks">
+    感谢所有为本程序的发展和成长做出贡献的朋友们！
+  </text>
+</view>

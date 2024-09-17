@@ -1,0 +1,63 @@
+/* pages/privacy.wxss */
+.container {
+  display: flex;
+  align-items: center; /* 垂直居中对齐 */
+  position: fixed; /* 固定定位 */
+  top: 0; /* 靠近顶部 */
+  width: 400px; /* 设置容器宽度 */
+  height: 50px; /* 设置容器高度 */
+  margin: 10px; /* 设置与屏幕边缘的间距（可选） */
+  padding: 10px; /* 添加内边距（可选） */
+  box-sizing: border-box; /* 包括边框和内边距在内的总宽度和高度 */
+}
+.avatar-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;      /* 设置按钮的宽度 */
+  height: 80px;     /* 设置按钮的高度 */
+  border-radius: 50%; /* 将按钮设置为圆形 */
+  padding: 0;       /* 去除按钮内边距 */
+  border: none;     /* 去除按钮边框 */
+  background-color: transparent; /* 背景颜色透明，避免干扰头像显示 */
+  margin-left: 10%;
+}
+
+.avatar {
+  width: 70px;      /* 设置头像的宽度 */
+  height: 70px;     /* 设置头像的高度 */
+  border-radius: 50%; /* 将头像设置为圆形 */
+  object-fit: cover; /* 确保头像保持比例且不会变形 */
+}
+
+.text {
+  margin-top: 0%;
+  margin-left: 10px; /* 按钮与文本之间的间距 */
+}
+.button-container {
+  display: flex;
+  flex-direction: column; /* 垂直排列 */
+  align-items: flex-start; /* 靠左对齐 */
+  margin-top: 30%; /* 容器与顶部内容之间的间距 */
+}
+
+/* button 样式 */
+.button-container button {
+  width: 100%; /* 按钮宽度为容器的100% */
+  padding: 10rpx; /* 按钮内边距 */
+  border: none; /* 去掉按钮默认边框 */
+  background-color: #ffffff; /* 按钮背景颜色 */
+  color: rgb(0, 0, 0); /* 按钮文字颜色 */
+  border-radius: 5rpx; /* 按钮圆角 */
+  font-size: 26rpx; /* 字体大小 */
+  cursor: pointer; /* 光标样式 */
+  text-align: left; /* 文本居中对齐 */
+  padding-left: 70rpx; /* 左侧内边距增加，文本向左移动 */
+  margin-bottom: 10rpx; /* 按钮之间的间距 */
+}
+
+/* 最后一个按钮的底部间距设为0 */
+.button-container button:last-child {
+  margin-bottom: 0;
+}
+

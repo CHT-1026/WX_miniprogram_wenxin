@@ -1,0 +1,31 @@
+/* pages/stored_plan/stored_plan.wxss */
+.container {
+  padding: 20px;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table-row {
+  display: flex;
+  border-bottom: 1px solid #ddd;
+}
+
+.table-cell {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+}
+
+.header {
+  font-weight: bold;
+  background-color: #f4f4f4;
+}
+
+.test{
+  position: fixed;
+  bottom: 10%;
+  left:10%;
+}

@@ -1,0 +1,35 @@
+<!--pages/privacy/register/register.wxml-->
+<view class="container" style="height: 147rpx; display: flex; box-sizing: border-box; left: 276rpx; top: 45rpx; width: 164rpx; position: fixed">
+  <image class="avatar" src="{{avatarUrl}}"></image>
+</view>
+<view class="all_container">
+  <view class="input_container">
+    <view class="label_container">
+      <text class="label">用户名</text>
+    </view>
+    <input class="input_field" 
+      id="user_name"
+      placeholder="请输入用户名"
+      bindinput="user_name_input"
+      value="{{user_name}}"
+      type="text"
+      confirm-type="next"/>
+  </view>
+
+  <view class="input_container">
+    <view class="label_container">
+      <text class="label">密码</text>
+    </view>
+    <input class="input_field" 
+      id="user_password"
+      placeholder="请输入密码"
+      bindinput="user_password_input"
+      value="{{user_password}}"
+      type="password"/>
+  </view>
+</view>
+
+<view class="button_container">
+  <button id="login_button" bind:tap="login">登录</button>
+  <button id="register_button" bind:tap="register">注册</button>
+</view>

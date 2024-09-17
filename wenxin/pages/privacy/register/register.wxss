@@ -1,0 +1,80 @@
+/* pages/privacy/register/register.wxss */
+.container {
+  display: flex;
+  align-items: center; /* 垂直居中对齐 */
+  position: fixed; /* 固定定位 */
+  top: 0; /* 靠近顶部 */
+  width: 400px; /* 设置容器宽度 */
+  height: 50px; /* 设置容器高度 */
+  margin: 10px; /* 设置与屏幕边缘的间距（可选） */
+  padding: 10px; /* 添加内边距（可选） */
+  box-sizing: border-box; /* 包括边框和内边距在内的总宽度和高度 */
+}
+
+.avatar {
+  width: 50px;            /* 根据需要设置图片宽度 */
+  height: 50px;           /* 根据需要设置图片高度 */
+  border-radius: 50%;      /* 可选：将图片设置为圆形 */
+}
+
+.all_container {
+  padding: 40rpx; /* 添加容器内边距 */
+  margin-top: 25%;
+}
+
+.input_container {
+  display: flex;            /* 使用 flex 布局 */
+  align-items: center;      /* 垂直居中对齐 */
+  margin-bottom: 30rpx;     /* 设置输入框之间的间距 */
+  padding: 20rpx;           /* 内边距 */
+  background-color: #ffffff; /* 输入框背景色 */
+  border-radius: 10rpx;     /* 圆角边框 */
+  box-shadow: 0 2rpx 5rpx rgba(0, 0, 0, 0.1); /* 阴影效果 */
+}
+
+.label_container {
+  flex: 0 0 150rpx;          /* 标签容器固定宽度 */
+  margin-right: 20rpx;       /* 标签与输入框之间的间距 */
+}
+
+.label {
+  font-size: 28rpx;          /* 标签字体大小 */
+  color: #333333;            /* 标签字体颜色 */
+}
+
+.input_field {
+  flex: 1;                   /* 输入框占满剩余空间 */
+  height: 60rpx;             /* 输入框高度 */
+  padding: 0 20rpx;          /* 输入框内边距 */
+  border: 1rpx solid #cccccc;/* 输入框边框 */
+  border-radius: 5rpx;       /* 输入框圆角 */
+  box-sizing: border-box;    /* 包括边框和内边距在内的宽度计算方式 */
+}
+
+.button_container {
+  display: flex;               /* 使用 Flexbox 布局 */
+  justify-content: space-between; /* 按钮之间的空间均匀分布 */
+  align-items: center;         /* 垂直居中对齐按钮 */
+  padding: 20rpx;              /* 容器内边距 */
+}
+
+button {
+  flex: 1;                     /* 按钮占满容器的剩余空间 */
+  height: 60rpx;               /* 按钮高度 */
+  margin: 0 50rpx;             /* 按钮左右间距 */
+  border: none;                /* 去掉按钮边框 */
+  border-radius: 5rpx;         /* 圆角边框 */
+  background-color: #00aeffce;   /* 按钮背景色 */
+  color: #ffffff;              /* 按钮文字颜色 */
+  font-size: 28rpx;            /* 按钮文字大小 */
+  box-shadow: 0 2rpx 5rpx rgba(0, 0, 0, 0.1); /* 阴影效果 */
+  cursor: pointer;             /* 鼠标悬停时显示手型 */
+}
+
+button#login_button {
+  background-color: #00b7ff;  /* 登录按钮背景色 */
+}
+
+button#register_button {
+  background-color: #12e7a7;  /* 注册按钮背景色 */
+}

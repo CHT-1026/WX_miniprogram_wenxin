@@ -1,0 +1,15 @@
+<!--pages/privacy.wxml-->
+<view class="container" style="width: 491rpx; display: flex; box-sizing: border-box; left: -16rpx; top: 0rpx; height: 252rpx">
+  <button class="avatar-wrapper" bind:tap="register_page">
+    <image class="avatar" src="{{avatarUrl}}"></image>
+  </button>
+  <text class="text" style="position: relative; left: 59rpx; top: -117rpx">{{nickname}}</text>
+</view>
+<view class="button-container">
+  <button>我的相册</button>
+  <button bind:tap="change_imf">修改个人信息</button>
+  <button>更新日志</button>
+  <button>建议反馈</button>
+  <button>支持作者</button>
+  <button bind:tap="about">关于</button>
+</view>
